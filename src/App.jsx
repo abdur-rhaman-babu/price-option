@@ -1,7 +1,9 @@
+import NavBar from "./components/NavBar/NavBar/NavBar";
+
 const App = () => {
   return (
     <div>
-      <h1 className="text-8xl bg-red-800">Price Option</h1>
+      <NavBar/>
     </div>
   );
 };
